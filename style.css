@@ -13,6 +13,43 @@ a{
 	text-decoration:none;
 }
 
+
+
+/*--head_pictures--*/
+.head_picture{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    background-image: url(img/headpic.png);
+    top:0px;
+}
+
+.head_picture_p{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    
+}
+
+.head_picture_p :nth-child(1){
+    font-size:32px;
+    color:#A3AFBD;
+    line-height:0px;
+}
+.head_picture_p :nth-child(2){
+    font-size:24px;
+    color:#C9685E;
+    line-height:0px;
+}
+.head_picture_p i{
+    font-size:20px;
+    background-color: #0000;
+    color:#FFFF;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
 /*--menu--*/
 
 .manu{
@@ -23,6 +60,9 @@ a{
     display: flex;
     align-items: center;
     justify-content:center;
+    bottom: 860px;
+    
+
 }
 
 .manu_laft_tx{
@@ -60,7 +100,7 @@ a{
 }
 
 .dropdown_containar{
-    display:inline;
+    display:inline;  
 }
 
 .dropdown_contant{
@@ -71,4 +111,3 @@ a{
 .dropdown_containar:hover .dropdown_contant{
     display:block;
 }
-
