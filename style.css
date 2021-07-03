@@ -50,6 +50,29 @@ a{
     cursor: pointer;
 }
 
+.my_picture_div{
+    width: 500px;
+    height: 475px;
+    background-color: #d38e88;
+    position:absolute;
+    left: 1320px;
+    top: 240px;
+    border-radius: 50%;
+    box-shadow: #DFF2F7 0px 20px 30px -10px;
+}
+
+.my_picture{
+    width: 450px;
+    height: 425px;
+    position:absolute;
+    border-radius: 50%;
+    background-image: url(img/headmypic.png);
+    bottom: 0px;
+    left: 16px;
+    border:10px solid #9E9F8D;
+    box-shadow: #9E9C8F 0px 20px 30px -10px;
+}
+
 /*--menu--*/
 
 .manu{
