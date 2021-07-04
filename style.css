@@ -134,3 +134,167 @@ a{
 .dropdown_containar:hover .dropdown_contant{
     display:block;
 }
+
+/*--about---*/
+.about_div{
+    width: 100%;
+    height: 600px;
+    background-color:#F7F7F7;
+    position: relative;
+    top: -75px;
+}
+
+.pic_div{
+    width: 355px;
+    height: 365px;
+    border: 15px solid #183256;
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.pic{
+    width: 355px;
+    height: 365px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background-size: cover;
+    background-image: url(img/about_pic2.jpg);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.about_p_div{
+    position: absolute;
+    left: 650px;
+    top: 80px;
+    width: 700px;
+}
+
+.about_p_div p:nth-child(1){
+    font-size:36px;
+    color: #2C4C71;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    line-height:45px;
+
+}
+.about_p_div p:nth-child(2){
+    font-size:24px;
+    color: #869ea5;
+    font-family: 'Dosis', sans-serif;
+    line-height:30px;
+}
+
+.about_p_div button{
+    width: 105px;
+    height: 45px;
+    border:none;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.about_p_div button a{
+    color: #2C4C71;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size:15px;
+}
+
+.about_p_div button:hover{
+    background-color:#3E628C;
+}
+.about_p_div button a:hover{
+    color: #FFFF;
+}
+.about_p_div button:active{
+    transform:scale(1.1)
+}
+
+.prog_icon{
+    width: 345px;
+    height: 390px;
+    background-color: #FFFF;
+    position:absolute;
+    left: 1450px;
+    top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.pong_icon_body1{
+    position: absolute;
+    display:flex;
+    left: 30px;
+    top: 50px;
+}
+
+.pong_all_icon1,
+.pong_all_icon2,
+.pong_all_icon3,
+.pong_all_icon4,
+.pong_all_icon5,
+.pong_all_icon6,
+.pong_all_icon7,
+.pong_all_icon8,
+.pong_all_icon9{
+    width: 85px;
+    height: 80px;
+    background-color: #F7F7F7;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.pong_all_icon1{
+    background-image: url(img/python-icon.png);
+    background-size: cover;
+}
+.pong_all_icon2{
+    background-image: url(img/JS-icon.png);
+    background-size: cover;
+}
+.pong_all_icon3{
+    background-image: url(img/c-icon.png);
+    background-size: cover;
+}
+
+.pong_icon_body2{
+    position: absolute;
+    display:flex;
+    left: 30px;
+    top: 150px;
+}
+
+.pong_all_icon4{
+    background-image: url(img/c++-icon.jpg);
+    background-size: cover;
+}
+.pong_all_icon5{
+    background-image: url(img/php-icon.png);
+    background-size: cover;
+}
+.pong_all_icon6{
+    background-image: url(img/sql-icon.jpg);
+    background-size: cover;
+}
+
+.pong_icon_body3{
+    position: absolute;
+    display:flex;
+    left: 30px;
+    top: 255px;
+}
+.pong_all_icon7{
+    background-image: url(img/c_sharp-icon.jpg);
+    background-size: cover;
+}
+.pong_all_icon8{
+    background-image: url(img/html-icon.jpg);
+    background-size: cover;
+}
+.pong_all_icon9{
+    background-image: url(img/css-icon.jpg);
+    background-size: cover;
+}
