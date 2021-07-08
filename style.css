@@ -39,7 +39,7 @@ a{
 .head_picture_p :nth-child(2){
     font-size:24px;
     color:#C9685E;
-    line-height:0px;
+    line-height:5px;
 }
 .head_picture_p i{
     font-size:20px;
@@ -48,6 +48,7 @@ a{
     border: none;
     padding: 5px;
     cursor: pointer;
+    margin-top:5px;
 }
 
 .my_picture_div{
@@ -314,10 +315,13 @@ a{
 .fotter_icon{
     position: absolute;
     bottom: 200px;
+    padding-left:8px;
 }
 .fotter_icon i{
     font-size:36px;
     color: #D2B299;
+    cursor: pointer;
+    padding:3px;
 }
 
 .fotter_p{
@@ -388,7 +392,205 @@ a{
 }
 .skills_button button:hover{
     background-color:#D2B299;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .skills_button button:active{
     transform:scale(1.1)
+}
+
+
+/*--project--*/
+.project{
+    width: 100%;
+    height: 600px;
+    background-color: #F7F7F7;
+    position: relative;
+    display: flex;
+    top: -70px;
+}
+.project p{
+    font-size:26px;
+    font-weight: bold;
+    color: #9D9B8F;
+    margin-left: 850px;
+}
+
+/*--project--*/
+.project_body1{
+    width: 330px;
+    height: 400px;
+    background-color: #fff;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    top: 100px;
+    left: 350px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.project_body1 i{
+    font-size:22px;
+    color: #f6c2c2;
+    margin-bottom: 200px;
+    padding:5px;
+}
+.project_link{
+    position: absolute;
+    display:flex;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: underline;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.project_link a:hover{
+    color: #A8A697;
+    font-family: 'Caveat', cursive;
+}
+
+.pro_buttnn{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 90px;
+    background-color: #f6c2c2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pro_buttnn span{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    
+}
+
+.project_body2{
+    width: 330px;
+    height: 400px;
+    background-color: #fff;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    top: 100px;
+    left: 800px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.project_body2 i{
+    font-size:30px;
+    color: #f6c2c2;
+    margin-bottom: 200px;
+    padding:5px;
+}
+
+.project_body3{
+    width: 330px;
+    height: 400px;
+    background-color: #fff;
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    top: 100px;
+    left: 1260px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.project_body3 i{
+    font-size:30px;
+    color: #f6c2c2;
+    margin-bottom: 200px;
+    padding:5px;
+}
+
+.project_body1:hover, .project_body2:hover, .project_body3:hover{
+    background-color: #DFF2F7;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*--contact--*/
+
+
+.contact_div{
+    width: 100%;
+    height: 550px;
+    background-color: #F7F7F7;
+    position: relative;
+    display: flex;
+    bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_form{
+    position: absolute;
+    top: 75px;
+    left: 300px;
+}
+
+.contact_form input:nth-child(1){
+    width: 300px;
+    height: 55px;
+    border:1px solid #d6cccc;
+    margin-right: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact_form input:nth-child(2){
+    width: 300px;
+    height: 55px;
+    border:1px solid #d6cccc;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact_form input:nth-child(5){
+    width: 620px;
+    height: 55px;
+    border:1px solid #d6cccc;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact_form textarea{
+    border:1px solid #d6cccc;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact_form button{
+    width: 623px;
+    height: 55px;
+    border:1px solid #d6cccc;
+    background-color: #333333;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.contact_form a button{
+    font-size:18px;
+    color:#fff;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.contact_form a button:active{
+    transform:scale(1.1);
+}
+
+.contact_form button:hover{
+    background-color: #F7F7F7;
+    color:#000;
+}
+
+.contact_p{
+    position: absolute;
+    right: 360px;
+}
+
+.contact_p p:nth-child(1){
+    font-size:26px;
+    color:#89898b;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.contact_p p:nth-child(2),
+.contact_p p:nth-child(3),
+.contact_p p:nth-child(4){
+    font-size: 20px;
+    color:#b6b6bd;
 }
